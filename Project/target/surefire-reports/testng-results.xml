@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35460" started-at="2018-04-17T19:17:38Z" finished-at="2018-04-17T19:18:14Z">
+    <groups>
+    </groups>
+    <test name="Validating Title Text" duration-ms="13699" started-at="2018-04-17T19:17:38Z" finished-at="2018-04-17T19:17:52Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@3daa422a]" name="initialize" is-config="true" duration-ms="11530" started-at="2018-04-17T19:17:38Z" finished-at="2018-04-17T19:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:Academy.validateTitle@3daa422a]" name="landingPage" duration-ms="68" started-at="2018-04-17T19:17:50Z" finished-at="2018-04-17T19:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@3daa422a]" name="teardown" is-config="true" duration-ms="2071" started-at="2018-04-17T19:17:50Z" finished-at="2018-04-17T19:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating Title Text -->
+    <test name="Validating user login" duration-ms="21712" started-at="2018-04-17T19:17:52Z" finished-at="2018-04-17T19:18:14Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@5f058f00]" name="initialize" is-config="true" duration-ms="1963" started-at="2018-04-17T19:17:52Z" finished-at="2018-04-17T19:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="landingPage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5f058f00]" name="landingPage" duration-ms="14155" started-at="2018-04-17T19:17:54Z" data-provider="getData" finished-at="2018-04-17T19:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="landingPage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5f058f00]" name="landingPage" duration-ms="3490" started-at="2018-04-17T19:18:08Z" data-provider="getData" finished-at="2018-04-17T19:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[567347]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@5f058f00]" name="teardown" is-config="true" duration-ms="2098" started-at="2018-04-17T19:18:12Z" finished-at="2018-04-17T19:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>

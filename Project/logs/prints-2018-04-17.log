@@ -1,0 +1,7 @@
+14:52:50.130 [main] INFO  Academy.HomePage - Driver is initialized
+14:52:52.095 [main] INFO  Academy.validateTitle - Driver is initialized
+14:53:00.543 [main] INFO  Academy.validateTitle - Navigated to the HomePage
+14:53:00.658 [main] INFO  Academy.validateTitle - Text is displayed
+14:53:11.876 [main] INFO  Academy.HomePage - Successfully passed the data
+14:53:17.692 [main] INFO  Academy.HomePage - Successfully passed the data
+15:17:42.420 [main] INFO  Academy.validateTitle - Driver is initialized
